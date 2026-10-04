@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#063f35">
+  <title>Blue Bird Spa Haridwar</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f4ed;
+      color: #123d34;
+    }
+    .topbar {
+      width: 100%;
+      background: linear-gradient(135deg, #063f35, #075d4d);
+      color: #fff;
+      padding: 14px 16px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 3px 12px rgba(0,0,0,.18);
+    }
+    .owner {
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .phone {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 24px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 15px;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.35);
+    }
+    .call { background: #0a7a63; }
+    .whatsapp { background: #18a558; }
+    .hero {
+      text-align: center;
+      padding: 28px 16px 22px;
+      background: #fffdf8;
+    }
+    .spa-name {
+      margin: 0;
+      font-size: clamp(34px, 10vw, 68px);
+      line-height: 1.03;
+      font-weight: 900;
+      color: #0756a6;
+      letter-spacing: -1.5px;
+    }
+    .address {
+      margin: 14px auto 0;
+      max-width: 700px;
+      font-size: clamp(16px, 4.5vw, 22px);
+      line-height: 1.45;
+      font-weight: 700;
+      color: #164f43;
+    }
+    .poster-wrap {
+      width: 100%;
+      background: #fff;
+      text-align: center;
+      padding: 0;
+    }
+    .poster {
+      display: block;
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      margin: 0 auto;
+    }
+    @media (min-width: 700px) {
+      .topbar { padding: 16px 24px; }
+      .owner { font-size: 24px; }
+      .phone { font-size: 18px; }
+      .hero { padding: 38px 24px 30px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="owner">Prabhat Goswami</div>
+    <div class="phone">Mobile: +91 9997376448</div>
+    <div class="actions">
+      <a class="btn call" href="tel:+919997376448">📞 Call</a>
+      <a class="btn whatsapp" href="https://wa.me/919997376448" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="spa-name">Blue Bird Spa Haridwar</h1>
+      <div class="address">Near Domino's Pizza | Govindpuri Colony - Haridwar</div>
+    </section>
+
+    <section class="poster-wrap">
+      <img class="poster" src="spa-poster.png" alt="Blue Bird Spa Haridwar">
+    </section>
+  </main>
+
+</body>
+</html>
